@@ -47,8 +47,8 @@ def game():
     print(f"                    You choose <<{weapons[user - 1]}>>")
     print(f"Artificial Intelligence choose <<{weapons[ai_choice - 1]}>>")
 
-    rezults = win_checker(weapons, user, ai_choice)
-    print(f"\n{rezults}")
+    results = win_checker(weapons, user, ai_choice)
+    print(f"\n{results}")
 
 
 def main():
